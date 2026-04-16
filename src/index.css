@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-card-bg: #111111;
+  --color-neon-green: #39ff14;
+  --color-neon-purple: #bc13fe;
+  --color-neon-blue: #00f3ff;
+  --color-text: #ffffff;
+  --color-muted: #666666;
+  --color-border: #222222;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  overflow: hidden;
+}
